@@ -13,4 +13,4 @@ void thegame(){
     printf("Haz perdido The Game.");
 }
 
-#endif FUNCIONES_H
+#endif
