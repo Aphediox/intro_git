@@ -9,7 +9,8 @@ int main(){
     printf("Hola %s.", nombre);
     printf("Edad: ");
     scanf("%u", &edad);
-    printf("Vas a cumplir %u", edad+1);
-    iteraciones(.95, 1.1);
+    printf("Vas a cumplir %u\n", edad+1);
+    printf("Iteraciones aproximadas: %f\n ", iteraciones(.95, 1.1));
+    thegame();
     return 0;
 }
